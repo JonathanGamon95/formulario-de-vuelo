@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/MOBILE/mobile.css">
+    <link rel="stylesheet" href="./CSS/PC/PC.css">
+    <link rel="stylesheet" href="./CSS/GENERAL/general.css">
+    <title>saca tu pasaje</title>
+</head>
+<body>
+    <div class="cont_formulario_externo">
+        <ul id="cont_formulario_interno">
+            <li>
+                <aside class="aside_1">
+                    <div class="titulo_principal titulo_1">
+                        <h1>Bienvenido</h1>
+                        <p>Saca tu Pasaje</p>
+                    </div>
+                </aside>
+
+                <main>
+                    <section>
+                        <div class="formulario">
+                            <input id="nombre_y_apellido" type="text" placeholder="Nombre y Apellido" required>
+                            <input id="DNI" type="number" placeholder="DNI" required>
+
+                            <div class="cont_botones">
+                                <button id="siguiente_1">Siguiente</button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <p>Hecho por Jonathan Gamon 2024</p>
+                </main>
+            </li>
+
+            <li>
+                <aside class="aside_2">
+                    <div class="titulo_principal titulo_2">
+                        <h1>Adonde quieres ir</h1>
+                        <p>Indica Origen y Destino</p>
+                    </div>
+                </aside>
+
+                <main>
+                    <section>
+                        <div class="formulario">
+                            <input id="origen_vuelo" type="text" placeholder="Origen de Vuelo">
+                            <input id="destino_vuelo" type="text" placeholder="Destino de Vuelo">
+
+                            <div class="cont_botones">
+                                <button class="atras">Atras</button>
+                                <button id="siguiente_2">Siguiente</button>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </li>
+
+            <li>
+                <aside class="aside_3">
+                    <div class="titulo_principal titulo_3">
+                        <h1>Confirma tu Viaje</h1>
+                        
+                    </div>
+                </aside>
+
+                <main>
+                    <section>
+                        <div class="formulario">
+                            <h1 id="dato_nombre_usuario"></h1>
+                            <p id="dato_DNI_usuario"></p>
+                            <p id="dato_destino_usuario"></p>
+
+                            <div class="cont_botones">
+                                <button class="atras">Atras</button>
+                                <button id="confirmar">Confirmar</button>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </li>
+        </ul>
+    </div>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./JS/DATOS_INPUTS/datos_inputs.js"></script>
+</body>
+</html>

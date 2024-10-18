@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+
+/* COLORES */
+#cont_formulario_interno {
+    background-color: #fff;
+}
+
+
+/* titulos */
+aside .titulo_1 {
+    color: #083169;
+}
+aside .titulo_2 {
+    color: aliceblue;
+}
+aside .titulo_3 {
+    color: aliceblue;
+}
+
+/* botones */
+button {
+    background-color: #083169;
+    color: aliceblue;
+}

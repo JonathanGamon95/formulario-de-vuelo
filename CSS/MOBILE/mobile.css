@@ -1,0 +1,146 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body {
+        background: green;
+    }
+
+
+    .cont_formulario_externo {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+
+    #cont_formulario_interno {
+        height: 100%;
+        width: 300%;
+        transition: 0.3s;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+
+    li {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+
+    aside {
+        grid-column: 1 / -1;
+        grid-row: 1 / 5;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .aside_1 {
+        background-image: url(../../IMAGENES/antartida.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .aside_2 {
+        background-image: url(../../IMAGENES/white-plane-blue-sky-flying-600nw-2355688291.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .aside_3 {
+        background-image: url(../../IMAGENES/64821418dcfd5.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    aside .titulo_principal {
+        grid-column: 1 / -1;
+        grid-row: 3 / 5;
+        text-align: center;
+
+        margin: auto auto 20px auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    main {
+        grid-column: 1 / -1;
+        grid-row: 5 / -1;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+    section {
+        grid-column: 1 / -1;
+        grid-row: 1 / 4;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .formulario {
+        margin: auto;
+        height: 80%;
+        width: 80%;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+
+    input {
+        padding-left: 20px;
+        border: none;
+        border-bottom: 1px solid #5c5c5c;
+    }
+
+
+    .cont_botones {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .cont_botones button {
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+    main p {
+        margin: auto;
+    }
+
+
+    .formulario h1,
+    .formulario p {
+        margin: auto auto auto 10px;
+    }
+}
